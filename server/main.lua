@@ -125,7 +125,7 @@ RegisterCommand('clearvpncache', function(source)
 end)
 
 local function checkVersion()
-    local apiUrl = string.format("https://api.github.com/repos/%s/releases/latest", Config.GITHUB_REPO)
+    local apiUrl = string.format("https://api.github.com/repos/MeowKatinas/velocitylayer-fivem-antivpn/releases/latest")
     PerformHttpRequest(apiUrl, function(statusCode, response)
         if statusCode == 200 and response then
             local data = json.decode(response)
