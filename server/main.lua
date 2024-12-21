@@ -129,7 +129,7 @@ local function checkVersion()
     PerformHttpRequest(apiUrl, function(statusCode, response)
         if statusCode == 200 and response then
             local data = json.decode(response)
-            local latestVersion = data.tag_name
+            local latestVersion = data.name
 
             if latestVersion and latestVersion > Config.CURRENT_VERSION then
                 print(string.format("[VelocityLayer] Update available! Current version: %s, Latest version: %s", Config.CURRENT_VERSION, latestVersion))
