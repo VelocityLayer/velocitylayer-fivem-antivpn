@@ -32,4 +32,4 @@ Add `ensure velocitylayer-antivpn` and restart the server or execute `ensure vel
 
 ## Download
 
-You can [download](https://github.com/MeowKatinas/velocitylayer-fivem-antivpn/releases/tag/1.0r) the latest version of VelocityLayer AntiVPN for FiveM.
+You can [download](https://github.com/MeowKatinas/velocitylayer-fivem-antivpn/releases/tag/latest) the latest version of VelocityLayer AntiVPN for FiveM.
