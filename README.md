@@ -8,7 +8,7 @@
 
 <h4 align="center">Plugin for FiveM to prevent usage of anonymizing services </h4>
 
-![screenshot](https://i.imgur.com/ELA6i9Y.png)
+![screenshot](https://i.imgur.com/6EqYmkL.png)
 ![screenshot](https://i.imgur.com/3Aknhk7.png)
 ![screenshot](https://i.imgur.com/KPmSn9D.png)
 
