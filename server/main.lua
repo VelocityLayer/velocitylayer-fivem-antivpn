@@ -240,7 +240,7 @@ local function checkVersion()
         resourceVersion = '1.0r'
     end
 
-    local apiUrl = "https://api.github.com/repos/MeowKatinas/velocitylayer-fivem-antivpn/releases/latest"
+    local apiUrl = "https://api.github.com/repos/VelocityLayer/velocitylayer-fivem-antivpn/releases/latest"
     local errorCode, resultData, resultHeaders, errorData = PerformHttpRequestAwait(apiUrl, 'GET', '', { ['Content-Type'] = 'application/json' })
     if errorCode == 200 and resultData then
         local data = json.decode(resultData)
@@ -248,7 +248,7 @@ local function checkVersion()
 
         if latestVersion and latestVersion > resourceVersion then
             print(string.format("[^5VelocityLayer^0] Update available! Current version: %s, Latest version: %s", resourceVersion, latestVersion))
-            print("[^5VelocityLayer^0] Download the latest version from: https://github.com/MeowKatinas/velocitylayer-fivem-antivpn/releases")
+            print("[^5VelocityLayer^0] Download the latest version from: https://github.com/VelocityLayer/velocitylayer-fivem-antivpn/releases")
         else
             print("[^5VelocityLayer^0] You are running the latest version.")
         end
