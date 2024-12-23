@@ -100,7 +100,7 @@ export default {
 
           <div class="absolute flex flex-row justify-center items-center space-x-2 bottom-8 left-6 px-2 py-1 rounded-lg border border-gray-700/50">
             <i class="fa-solid fa-circle text-accent text-xs"></i>
-            <p class="text-white font-bold">1.0.0</p>
+            <p class="text-white font-bold">2.0r</p>
           </div>
         </div>
 

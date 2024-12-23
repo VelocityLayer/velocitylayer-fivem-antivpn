@@ -69,7 +69,7 @@ export default {
                     </div>
                     <div class="flex items-center space-x-2">
                         <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded-lg" v-model="settings.ENABLE_ANTIVPN">
-                        <label class="text-gray-400">Enable Anti VPN</label>
+                        <label class="text-gray-400">Disallow VPN Connections</label>
                     </div>
                 </div>
             </div>

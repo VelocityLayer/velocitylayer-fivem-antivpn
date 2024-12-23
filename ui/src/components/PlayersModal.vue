@@ -34,8 +34,8 @@ export default {
                         <p class="text-white">Join Time: {{ player.joinTime ? (new Date(player.joinTime * 1000).toLocaleString()) : 'Unknown' }}</p>
                     </div>
                     <div class="grow bg-gray-800/30 p-4 rounded-lg">
-                        <h4 class="text-gray-400 text-sm mb-2">VPN Info</h4>
-                        <p class="text-white">Is Proxy: {{ player.vpnInfo?.isProxy ? 'Yes' : 'No' }}</p>
+                        <h4 class="text-gray-400 text-sm mb-2">Connection Info</h4>
+                        <p class="text-white">VPN/Proxy: {{ player.vpnInfo?.isProxy ? 'Yes' : 'No' }}</p>
                         <p class="text-white">Country: {{ player.vpnInfo?.country || 'Unknown' }}</p>
                         <p class="text-white">Provider: {{ player.vpnInfo?.provider || 'Unknown' }}</p>
                         <p class="text-white">Risk Level: {{ player.vpnInfo?.risk || 'Unknown' }}</p>
@@ -44,8 +44,7 @@ export default {
                 <div class="bg-gray-800/30 p-4 rounded-lg col-span-2">
                     <h4 class="text-gray-400 text-sm mb-2">Identifiers</h4>
                     <template v-for="(identifier, type) in player.identifiers">
-                        <div class="flex flex-row space-x-4">
-                            <p class="text-white capitalize">{{ type }}:</p>
+                        <div class="flex flex-row">
                             <p class="text-white" :class="type == 'ip' && 'blur-sm hover:blur-none'">{{ identifier }}</p>
                         </div>
                     </template>
