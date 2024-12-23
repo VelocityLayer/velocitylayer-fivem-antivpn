@@ -9,21 +9,25 @@
 <h4 align="center">Plugin for FiveM to prevent usage of anonymizing services </h4>
 
 ![screenshot](https://i.imgur.com/3Aknhk7.png)
+![screenshot](https://i.imgur.com/KPmSn9D.png)
 
 ## Key Features
 
 * Simple & Lightweight
+* Silent Anti-VPN disabling (Allow proxy connections to join, but log them)
 * Proxy/VPN detection via Proxycheck.io API
 * Internal caching to prevent unnecessary queries
 * Highly customizable
+* In-game UI for management
 * Free and open-source
 
 ## To do
 
 * Country blacklisting
-* In-game UI for user management
 * Discord notifications
-* Risk score blocking via proxycheck.io API
+* Silent Anti-VPN fail (When user attempts to bypass anti-vpn multiple times from 3 different VPN IPs, he will be silently failed and presented with kick message)
+* Whitelist module
+* Logs (when player attempts to join with a VPN/Proxy connection, it displays the attempt in the game UI)
 
 ## How To Use
 
