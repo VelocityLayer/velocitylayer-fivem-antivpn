@@ -6,7 +6,7 @@ The following versions of VelocityLayer are currently supported with security up
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 2.0     | :white_check_mark: |
+| 2.0r    | :white_check_mark: |
 | < 1.x   | :x:                |
 
 ## Reporting a Vulnerability
