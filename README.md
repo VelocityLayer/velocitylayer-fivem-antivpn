@@ -9,8 +9,7 @@
 <h4 align="center">Plugin for FiveM to prevent usage of anonymizing services </h4>
 
 [![proxycheck](https://i.imgur.com/yWe7vGn.png)](https://proxycheck.io)
-![kick](https://i.imgur.com/3Aknhk7.png)
-![gameui](https://i.imgur.com/KPmSn9D.png)
+![gameui](https://i.imgur.com/C0O3J9F.png)
 
 ## Key Features
 
